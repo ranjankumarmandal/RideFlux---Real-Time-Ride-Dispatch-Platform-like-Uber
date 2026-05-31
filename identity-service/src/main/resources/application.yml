@@ -1,0 +1,31 @@
+spring:
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/rideflux_identity
+    username: postgres
+    password: postgres
+
+  flyway:
+    enabled: true
+    url: jdbc:postgresql://localhost:5432/rideflux_identity
+    user: postgres
+    password: postgres
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  kafka:
+    bootstrap-servers: localhost:9092
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+
+jwt:
+  secret: YOUR_SUPER_LONG_512_BIT_SECRET_KEY
+  access-token-expiration: 3600000
+  refresh-token-expiration: 604800000
