@@ -2,7 +2,7 @@
 
 ## About
 
-RideFlux — Architecting a cloud-native, event-driven ride dispatch platform using Java 21, Spring Boot, WebFlux, Kafka, PostgreSQL, Redis GEO, and Kubernetes, enabling real-time driver matching, trip orchestration, and reactive stream processing at scale.
+A cloud-native, event-driven ride dispatch platform using Java 21, Spring Boot, WebFlux, Kafka, PostgreSQL, Redis GEO, and Kubernetes, enabling real-time driver matching, trip orchestration, and reactive stream processing at scale.
 
 Integrated AI-powered demand forecasting, ETA prediction, dynamic surge pricing, and intelligent driver allocation using Transformer-based models, PyTorch, TensorFlow, Hugging Face, and feature-engineering pipelines to optimize dispatch efficiency and operational decision-making.
 
