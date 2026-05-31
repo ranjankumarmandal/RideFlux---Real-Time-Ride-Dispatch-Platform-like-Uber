@@ -1,0 +1,6 @@
+services:
+
+  ai-surge-pricing-ml-service:
+    build: .
+    ports:
+      - "8002:8002"
