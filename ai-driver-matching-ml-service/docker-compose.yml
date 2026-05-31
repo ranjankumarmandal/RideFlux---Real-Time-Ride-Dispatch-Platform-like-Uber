@@ -1,0 +1,6 @@
+services:
+
+  ai-driver-matching-ml-service:
+    build: .
+    ports:
+      - "8001:8001"
