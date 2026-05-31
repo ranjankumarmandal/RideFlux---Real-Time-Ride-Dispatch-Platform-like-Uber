@@ -1,0 +1,7 @@
+distance_km,eta_minutes,driver_rating,acceptance_rate,match_score
+1,3,4.9,0.98,98
+2,5,4.8,0.95,94
+3,7,4.7,0.90,89
+5,10,4.5,0.88,82
+7,15,4.3,0.80,70
+10,20,4.0,0.75,60
